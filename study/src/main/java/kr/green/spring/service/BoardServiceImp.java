@@ -17,12 +17,6 @@ public class BoardServiceImp implements BoardService{
 	public void register(BoardVo board) {
 		boardDao.setBoard(board);
 	}
-//	
-//	List<BoardVo> getBoards(BoardVo board) {
-//        List<BoardVo> list = boardDao.getBoards(board);
-//        
-//        return list;
-//	}
 
 	@Override
 	public List<BoardVo> getBoards() {
