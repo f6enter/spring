@@ -4,7 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>signup</title>
+<link rel="stylesheet" href="<%=request.getContextPath() %>/resources/css/bootstrap.css">
 </head>
 <body>
 	<form action="<%= request.getContextPath()%>/signup" method="post">
